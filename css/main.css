@@ -16,3 +16,59 @@ html {
 *, *::before, *::after; {
 	box-sizing: inherit;
 }
+
+.img-flex {
+	width: 75%;
+	margin: auto 0;
+}
+
+.left {
+	display: inline-block;
+	float: left;
+}
+
+.center {
+	vertical-align: center;
+}
+
+body {
+	margin:0;
+}
+
+.game {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
+
+.info {
+	width: 100%;
+}
+
+.about {
+	height: 100%;
+	background-color: darkgrey;
+}
+
+.people {
+	width: 100%;
+	background-color: lightgrey;
+}
+
+@media only screen and (min-width: 38em) {
+	.about {
+		height: 15em;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 90em) {
+	html {font-size: 120%;}
+}
+
+@media only screen and (min-width: 120em) {
+  	html {font-size: 130%;}
+}
